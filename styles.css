@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #d3e0ea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #222;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.contact h3, .staff-experience h3, .projects h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact p {
+    line-height: 1.0;
+    text-align: center; 
+    color: black;
+    a:link { text-decoration: none; }; /* lily forced me to add this */
+    a:visited { text-decoration: none; }; /* lily forced me to add this */
+    a:hover { text-decoration: none; }; /* lily forced me to add this */
+    a:active { text-decoration: none; }; /* lily forced me to add this */
+}
+
+.staff-experience, .projects {
+    text-align: center;
+}
+
+.staff-experience ul li, .projects ul li {
+    text-align: center;
+}
+
+.staff-experience strong p, .projects strong li {
+    text-align: center;
+}
+
+.staff-experience ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.staff-experience ul li, .projects ul li {
+    margin-bottom: 20px; 
+    text-align: left; 
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.staff-experience ul li p, .projects ul li p {
+    margin: 5px 0 0 0; 
+    font-size: 0.9em; 
+}
