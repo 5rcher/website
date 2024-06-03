@@ -35,7 +35,7 @@ main {
     text-align: center;
 }
 
-.contact h3, .staff-experience h3, .projects h3 {
+.contact h3, .staff-experience h3, .projects h3, .friends h3 {
     text-align: center;
     margin-top: 20px;
 }
@@ -78,4 +78,8 @@ main {
 .staff-experience ul li p, .projects ul li p {
     margin: 5px 0 0 0; 
     font-size: 0.9em; 
+}
+
+.friends {
+    align-items: center;
 }
