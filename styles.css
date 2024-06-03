@@ -82,5 +82,6 @@ main {
 
 .friends-badges {
     display: flex;
-    align-items: center;
+    justify-content: center; /* thanks jeelzzz */
+    gap: 1rem;
 }
